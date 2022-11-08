@@ -1,0 +1,13 @@
+.side{
+  grid-area: s;
+  background-color: tan;
+  padding: 20px;
+  /*grid-auto-columns: 1fr;*/
+  /*display: inline-block;*/
+}
+.friend {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
